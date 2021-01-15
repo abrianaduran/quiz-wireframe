@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz Wireframe</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+        <h1>Astrology Quiz</h1>
+        <h3>Each sign of the zodiac is associated with one of the four elements: earth, air, fire, and water.
+            Test your knowledge of the zodiac in this astrology quiz.
+        </h3>
+        <button type="button" id="start" >Start!</button>
+    </div>
+    <hr>
+    <div>
+        <h1>Astrology Quiz</h1>
+        <form id="question" >
+            <div>
+                <p class="question">How many signs are there in the zodiac?</p>
+            </div>
+            <div>
+                <input type="radio" name="options" id="option" class="answer" required> 
+                <label for="option">14</label>
+                <br>
+                <input type="radio" name="options" id="option" class="answer" required> 
+                <label for="option">12</label>
+                <br>
+                <input type="radio" name="options" id="option" class="answer" required> 
+                <label for="option">10</label>
+                <br>
+                <input type="radio" name="options" id="option" class="answer" required> 
+                <label for="option">8</label>
+            </div>
+            <div>
+                <p>Score:1/5</p>
+                <p>Question Number: 3</p>
+            </div>
+            <div>
+                <button type="submit" >Submit</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div class="results">
+        <h1>Astrology Quiz</h1>
+        <p class="results">Congratulations! Your Score is:</p>
+        <p class="results">0/5!</p>
+        <button type="button" id="restart">Restart!</button>
+    </div>
+               
+    </body>
+</html>
